@@ -1,0 +1,108 @@
+* {
+    outline: white dotted;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 10;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+}
+
+.column-center {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: #f6f1f1;
+}
+
+.Chef-Ramsay {
+    vertical-align: center;
+}
+
+.column-center h2 {
+    
+    float: center;
+    margin-top: 1rem;
+    margin-left: 21rem;
+    margin-bottom: 1rem;
+}
+
+.column-center p {
+    margin-bottom: 2rem;
+    line-height: 1.5;
+}
+
+nav {
+   height: 100px;
+   background: #081262;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   padding: 0rem calc((100vw - 1300px)/2);
+
+}
+
+.logo {
+    color: rgb(243, 237, 237);
+    font-size: 2.25rem;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+}
+
+.About-Jump {
+    padding: 15rem
+}
+
+nav a {
+text-decoration: none;
+color: #fffbfb;
+padding: 0 1.5rem;
+}
+
+.hero {
+    background: #081262;  
+}
+
+.hero-container {
+    grid-template-columns: 1fr 1fr;
+    /* height: 400vh; */
+    /* padding: 3rem calc((100vw - 1300px)/2); */
+
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+
+
+.Chef-Ramsay {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
+
+.Hells-Kitchen {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 5%;
+    }
+
+.MasterChef {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    border-radius: 5%;
+}
+
+.award {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 5%;
+}
